@@ -94,6 +94,21 @@ footer p {
     display: inline-block;
 }
 
+.button:hover {
+    animation: animation 100s;
+}
+
+@keyframes animation {
+    0% {
+        transform: translateY(-2px);
+        transform: translateY(-2px);
+    }
+    100% {
+        transform: translateY(-2px);
+        transform: translateY(-2px);
+    }
+}
+
 .border {
     width: 365px;
     height: 1px;
